@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-inherited-keys",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return an array of an object's inherited enumerable property names.",
   "license": "Apache-2.0",
   "author": {
