@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inherited-keys/tags). For example,
+
+```javascript
 import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.1.0-deno/mod.js';
 ```
 
@@ -109,7 +114,7 @@ var keys = inheritedKeys( f, 1 );
 
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.1.0-deno/mod.js';
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
