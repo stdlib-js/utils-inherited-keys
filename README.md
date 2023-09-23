@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@deno/mod.js';
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.1.0-deno/mod.js';
 ```
 
 #### inheritedKeys( obj\[, level] )
@@ -109,7 +109,7 @@ var keys = inheritedKeys( f, 1 );
 
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@deno/mod.js';
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.1.0-deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
