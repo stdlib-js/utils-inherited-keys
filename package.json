@@ -48,7 +48,7 @@
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/utils-define-property": "^0.1.0",
     "@stdlib/utils-index-of": "^0.1.0",
     "@stdlib/utils-inherit": "^0.1.0",
