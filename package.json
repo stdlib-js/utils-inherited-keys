@@ -41,7 +41,7 @@
     "@stdlib/assert-is-enumerable-property": "^0.1.0",
     "@stdlib/assert-is-positive-integer": "^0.1.0",
     "@stdlib/constants-float64-max-safe-integer": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0",
     "@stdlib/utils-get-prototype-of": "^0.1.0",
     "@stdlib/utils-property-names": "^0.1.0"
   },
