@@ -35,30 +35,14 @@ limitations under the License.
 
 > Return an array of an object's inherited enumerable property names.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/utils-inherited-keys
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var inheritedKeys = require( '@stdlib/utils-inherited-keys' );
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@esm/index.mjs';
 ```
 
 #### inheritedKeys( obj\[, level] )
@@ -81,7 +65,7 @@ var keys = inheritedKeys( f );
 By default, the function walks an object's entire prototype chain. To limit the inheritance level, provide a `level` argument.
 
 ```javascript
-var inherit = require( '@stdlib/utils-inherit' );
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
 
 function Bar() {
     return this;
@@ -123,9 +107,14 @@ var keys = inheritedKeys( f, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var defineProperty = require( '@stdlib/utils-define-property' );
-var inheritedKeys = require( '@stdlib/utils-inherited-keys' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@esm/index.mjs';
 
 function Foo() {
     this.beep = 'boop';
@@ -154,6 +143,10 @@ var keys = inheritedKeys( obj );
 
 console.log( keys );
 // => [ 'foo' ]
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -186,7 +179,7 @@ console.log( keys );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -250,13 +243,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys
+[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/esm
 
-[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in
+[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in/tree/esm
 
-[@stdlib/utils/inherited-property-names]: https://github.com/stdlib-js/utils-inherited-property-names
+[@stdlib/utils/inherited-property-names]: https://github.com/stdlib-js/utils-inherited-property-names/tree/esm
 
-[@stdlib/utils/inherited-property-symbols]: https://github.com/stdlib-js/utils-inherited-property-symbols
+[@stdlib/utils/inherited-property-symbols]: https://github.com/stdlib-js/utils-inherited-property-symbols/tree/esm
 
 <!-- </related-links> -->
 
