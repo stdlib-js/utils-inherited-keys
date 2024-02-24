@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inherited-keys/tags). For example,
+
+```javascript
 import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.2.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ var keys = inheritedKeys( f, 1 );
 <script type="module">
 
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@v0.2.1-esm/index.mjs';
+import inheritedKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-keys@esm/index.mjs';
 
 function Foo() {
     this.beep = 'boop';
